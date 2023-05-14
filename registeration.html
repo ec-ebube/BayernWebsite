@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header style="background-color: red;">
+        <div class="logo-area">
+            <div class="logo">
+                <img src="images/fcblogo0.png" alt="">
+            </div>
+            <span>F.C Bayern Munchen</span>
+            <div class="services">
+                <input type="search" name="search" placeholder="search">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="index.html">News</a></li>
+                <li> <a href="players.html">Players</a></li>
+                <li> <a href="fixtures.html">Fixtures</a></li>
+                <li> <a href="registeration.html"> Register</a></li>
+            </ul>
+        </nav>
+        <h1>Fan Registeration</h1>
+    </header>
+    <h1>Bayern Fan Registration Form</h1>
+
+    <form action="">
+        <label for="firstname"> First Name : 
+            <input type="text" id="firstname" maxlength="20" autofocus minlength="3"></label><br>
+        <label for="lastname"> Last Name : <input type="text" id="lastname"></label><br><br>
+        <label for="dob">Date of birth
+            <input type="date" name="dob">
+        </label><br>
+        <label for="time">Favourite Football Time
+            <input type="time" name="time">
+        </label><br>
+        <label for="phone">Phone Number
+            <input type="tel" placeholder="Phone Number" name="tel">
+        </label><br>
+        <label for="email"> Email (optional): 
+            <input type="email" name="email" placeholder="@gmail.com">
+        </label><br>
+        <label for="password">Password:
+            <input type="password" id="password" required placeholder="password" name="password">
+        </label><br>
+        <label for="gender"> Male : <input type="radio" name="gender"></label><br>
+        <label for="gender"> Female : <input type="radio" name="gender"></label><br>
+       <br>
+       <label for="country">
+           <select name="country" id="country" title="Select your country">
+                <option value="" disabled selected>select country</option>
+                <option value="Afganistan"> Afganiatan</option>
+                <option value="Agentina"> Agentina</option>
+                <option value="Algeria"> Algeria</option>
+               <option value="Albania">Albania</option>
+               <option value="Australia">Australia</option>
+               <option value="Belarus"> Belarus</option>
+               <option value="Benin"> Benin</option>
+               <option value="Burkina Faso">Burkina Faso</option>
+               <option value="Canada"> Canada</option>
+               <option value="Cambodia">Cambodia</option>
+               <option value="Chad"> Chad</option>
+               <option value="China"> China</option>
+               <option value="D.R.Congo">D.R.Congo</option>
+               <option value="Denmark"> Denmark</option>
+               <option value="Egypt"> Egypt</option>
+               <option value="Ethopia"> Ethopia</option>
+               <option value="Fiji">Fiji</option>
+               <option value="Finland">Finland</option>
+               <option value="France"> France</option>
+               <option value=" Germany"> Germany</option>
+               <option value="Greece"> Greece</option>
+               <option value="Hungary"> Hungary</option>
+               <option value="India"> India</option>
+               <option value="Indonesia"> Indonesia</option>
+               <option value="Iran"> Iran</option>
+               <option value="Iraq"> Iraq</option>
+               <option value="Ireland">Ireland</option>
+               <option value="Isreal"> Isreal</option>
+               <option value="Japan"> Japan</option>
+               <option value="Kenya"> kenya</option>
+               <option value="Lebanon"> Lebanon</option>
+               <option value="Liberia"> Liberia</option>
+               <option value="Lybia"> Lybia</option>
+               <option value="Malaysia">Malaysia</option>
+               <option value="Mexico"> Mexico</option>
+               <option value="New Zealand">New Zealand</option>
+               <option value="Niger"> Niger</option>
+               <option value="Nigeria"> Nigeria</option>
+               <option value="North Korea"> North Korea</option>
+               <option value="Poland">Poland</option>
+               <option value="Portugal"> Portugal</option>
+               <option value="Qatar"> Qatar</option>
+               <option value="Russia"> Russia</option>
+               <option value="Saudi Arabia"> Saudi Arabia</option>
+               <option value="Serre Lone"> Serre Lone</option>
+               <option value="Spain"> Spain</option>
+               <option value="South Africa"> South africa</option>
+               <option value="South Korea"> South Korea</option>
+               <option value="South Sudan">South Sudan</option>
+               <option value="Sudan">Sudan</option>
+               <option value="Tunisia"> Tunisia</option>
+               <option value="Uganda"> Uganda</option>
+               <option value="Ukraine">Ukraine</option>
+               <option value="United Kingdom of Great Britain">U.K</option>
+               <option value="United States of America"> U.S.A</option>
+               <option value="Zambia"> Zambia</option>
+               <option value="Zimbabwe"> Zimbabwe</option>
+           </select><br><br>
+        </label>
+        <label for="favourite_player">Your favourite player:</label>
+            <input list="favourite_players" name="favourite_player" id="favourite_player">
+            <datalist id="favourite_players">
+              <option value="Manuel_Nauer">1</option>
+              <option value="Sven_Ulreich">26</option>
+              <option value="Johannes_Schenk">35</option>
+              <option value="Matthijs_de_Light">4</option>
+              <option value="Lucas_Hernandez">21</option>
+              <option value="Dayot_Upamecano">2</option>
+              <option value="Aphonso_Davis">19</option>
+              <option value="Benjamin_Pavard">5</option>
+              <option value="Noussair_Mazraoui">40</option>
+              <option value="Josip_Stansic">44</option>
+              <option value="Joshua_Kimmich">6</option>
+              <option value="Leon_Goretzka">8</option>
+              <option value="Ryan_Gravenberch">38</option>
+              <option value="Marcel_Sabitizer">18</option>
+              <option value="Bouna_Sarr">20</option>
+              <option value="Jamal_Musiala">42</option>
+              <option value="Paul_Wanner">14</option>
+              <option value="Leroy_Sane">10</option>
+              <option value="Sadio_Mane">17</option>
+              <option value="Serge_Gnabry">7</option>
+              <option value="Kingsley_Comman">11</option>
+              <option value="Thomas_Muller">25</option>
+              <option value="Mathys_Tel">39</option>
+              <option value="Eric_Maxim_Choupo-Moting">13</option>
+            </datalist>
+          <br>
+          <label for="image">Upload your passport: 
+            <input type="file"  placeholder="upload_image" 
+            name="image" multiple>
+        </label><br>
+       <div>
+           <textarea name="description" id="description" cols="30" rows="5" placeholder="description"></textarea>
+       </div><br>
+       <label for="color">Your favourite color:
+           <input type="color" id="color" name="color"><br>
+       </label>
+        <label for="terms"><input type="checkbox" name="terms"> I agree to the 
+            <a href="terms.html" target="_blank">terms and conditions</a></label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    </section>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
